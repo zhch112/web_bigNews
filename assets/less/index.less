@@ -1,0 +1,75 @@
+//out:../css/index.css
+
+// 设置底部文本居中样式
+.layui-footer {
+
+    text-align: center;
+    font-size: 12px;
+}
+
+// 给字体图标添加边距
+.iconfont {
+    margin-right: 4px;
+    font-size: 12px;
+}
+
+.layui-icon {
+    margin-right: 4px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+// 设置主页的内容区域
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+// 设置内容区域滚动条不显示
+.layui-body {
+    overflow: hidden;
+}
+
+// 强制删除a链接的动画效果
+a {
+    transition: none !important;
+}
+
+// 设置头像的样式
+.userinfo {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    // 内容不被选中
+    user-select: none;
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.layui-side-scroll {
+
+    .userinfo {
+        border-bottom: 1px solid #282b33;
+    }
+
+}
+
+//设置文本头像样式（当第一注册时显示的头像为用户名首字母）
+.text-avatar {
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: #009688;
+    border-radius: 50%;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    
+}
