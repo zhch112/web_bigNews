@@ -1,0 +1,9 @@
+body {
+  background-color: #f2f3f5;
+}
+.layui-card {
+  margin: 15px;
+}
+.layui-card .layui-form-item .layui-input-inline {
+  width: 380px;
+}
